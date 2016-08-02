@@ -2,8 +2,8 @@
 Contributors: xola-com, Xola.com 
 Tags: online booking, online reservations, reservations, bookings, book now button, ecommerce, e-commerce, xola
 Requires at least: 3.0.0
-Tested up to: 4.3
-Stable tag: 1.1
+Tested up to: 4.5.3
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,8 @@ Once you have your Xola account set up with all your offerings, installing the W
 
 == Changelog ==
 
+Version 2.0 - Functionality to copy the experiences button codes with a single click.
+	    - Bug fixes
 Version 1.1 - Upgrade to be compatible with Wordpress 4.3
 
 == Upgrade Notice ==
