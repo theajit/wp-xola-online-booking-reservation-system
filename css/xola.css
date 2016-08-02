@@ -1,0 +1,99 @@
+Paste the CSS source code you want to compress here.xola_logo{background:url(images/xola.png) repeat scroll 0 0 rgba(0,0,0,0);float:left;height:60px;width:181px;margin:20px 25px 0 0}
+.xola_setting{font-size:40px!important;margin:40px 0 20px!important}
+#xola_form{clear:both;float:left;margin:10px 0 0}
+#image_xola{list-style:none outside none}
+#image_xola li{border:1px solid #ddd;float:left;min-height:205px;text-align:center;width:250px;position:relative;margin:0 5px 5px;padding:5px}
+#image_xola li span{bottom:5px;clear:both;color:#000;font-size:12px;font-weight:700;left:0;position:absolute;width:96%;padding:0 4px}
+.xola_video{background:none repeat scroll 0 0 #f8f8f8;border:1px solid #c5c5c5;float:left;padding:5px}
+#image_xola li img{max-height:121px;width:250px}
+#image_xola_popup li{background:none repeat scroll 0 0 #fff;border:1px solid #d2d2d2;cursor:pointer;float:left;text-align:center;width:100%;margin:0 auto 5px}
+#image_xola_popup li:hover span{font-size:14px;color:#8bc53f}
+#image_xola_popup img{border:1px solid #717171;float:left;height:35px;width:50px;margin:2px;padding:2px}
+#image_xola_popup span{float:left;font-size:13px;font-weight:700;margin:10px 0 10px 15px}
+.clear_li{clear:both}
+#image_xola_popup{float:right;width:95%;margin:5px 0 0}
+.xola_select_tour{background:none repeat scroll 0 0 #f8f8f8;border:1px solid #e5e5e5;color:#000;font-size:15px;margin:5px 0 10px;padding:10px}
+.right_xola{float:left;width:100px;margin:10px 0 0 5px}
+.right_xola .xola_field{float:left;width:100%;margin:0 0 5px}
+.right_xola .xola_field input{float:left;margin:2px 5px 5px 2px}
+.right_xola .xola_field label{float:left}
+.left_xola{background:none repeat scroll 0 0 #fbfbfb;border:1px solid #e5e5e5;float:left;width:550px;margin:10px auto;padding:5px}
+.left_xola .left_default{text-align:center;width:100%;display:none}
+.left_xola .left_default span{color:#000;float:left;font-weight:700}
+#xola_step_2 .xola_submit{clear:both;width:90%;margin:0 auto}
+#xola_step_2 .xola_submit button{border:medium none;cursor:pointer;color:#fff;float:right;font-weight:700;margin:5px 0 0 10px;padding:10px 20px}
+#xola_step_2 .xola_submit .xola_back{background:none repeat scroll 0 0 orange;float:left;margin:5px 0 0}
+#xola_step_2 .xola_submit .xola_done{background:none repeat scroll 0 0 green}
+#xola_step_2 .xola_2{margin:10px 2px 0 0}
+.left_custom{float:left;display:none;width:100%}
+.left_custom span{background:none repeat scroll 0 0 #fbfbfb;color:#717171;float:left;width:96%;margin:0 auto 5px;padding:5px 10px}
+.left_custom textarea{border:1px solid #c5c5c5;float:left;height:110px;width:100%;padding:5px}
+#image_xola li:nth-child(even),#image_xola_popup li:nth-child(even){background:none repeat scroll 0 0 #f8f8f8;border:1px solid #e5e5e5}
+.xola_btn{background:url(images/book_now.png);height:55px;width:186px;margin:0 auto}
+#xola_step_2{width:700px}
+#xola_step_2 .xola_btn_hd{margin:10px 0}
+.left_custom span a{color:green;font-weight:700;text-decoration:none}
+#xola_checked{display:block}
+.xola_menu a.ab-item{background:url(images/xola.png) no-repeat scroll left center / 19px auto rgba(0,0,0,0)!important;padding:0 0 0 22px !important}
+.xola_menu .ab-sub-wrapper a.ab-item{background:none!important;padding:0 10px!important}
+.xola_menu .ab-sub-wrapper ul li:last-child div.ab-item{border:none!important}
+.xola_menu{cursor:pointer}
+#image-xola input {
+    float: left!important;
+    font-size: 1em;
+    padding: 3px 6px;
+    margin: 0;
+    border: 1px solid #333;
+    outline: 0;
+    box-shadow: none;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+
+#image-xola input {
+    width: 20em!important;
+    background-color: #fff;
+    border-right: 0 none;
+    border-radius: 3px 0 0 3px;
+}
+
+button {
+    position: relative;
+    background-color: #aaa;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.copied::after {
+    position: absolute;
+    top: 9%;
+    right: 110%;
+    display: block;
+    content: "copied";
+    font-size: 0.75em;
+    padding: 2px 3px;
+    color: #fff;
+    background-color: #22a;
+    border-radius: 3px;
+    opacity: 0;
+    will-change: opacity, transform;
+    animation: showcopied 1.5s ease;
+}
+
+@keyframes showcopied {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    70% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+    }
+}
